@@ -5,3 +5,4 @@ description = "Open-source phoneme-level English pronunciation assessment (Wav2V
 requires-python = ">=3.10"
 # clarify the control flow
 # keep defaults in sync with the manifest
+# avoid re-reading the config on every call
